@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Guardian Trace — Protecting Online Communities</title>
+  <meta name="description" content="Guardian Trace — volunteer project dedicated to online safety, awareness, and reporting harmful behaviour." />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#f8fafc; 
+      --card:#ffffff; 
+      --muted:#6b7280; 
+      --accent:#4f46e5; 
+      --danger:#dc2626;
+      --radius:18px;
+      --max:1200px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      font-family:'Poppins', sans-serif;
+      margin:0; background:var(--bg); color:#111827;
+      line-height:1.7; -webkit-font-smoothing:antialiased;
+    }
+    h1,h2,h3,h4{margin:0 0 12px;font-weight:700;line-height:1.2}
+    h1{font-size:48px}
+    h2{font-size:32px}
+    h3{font-size:22px;font-weight:600}
+    p{margin:0 0 16px}
+    a{color:inherit;text-decoration:none}
+
+    .container{max-width:var(--max);margin:0 auto;padding:40px 24px}
+
+    header{background:var(--card);border-bottom:1px solid #e5e7eb;position:sticky;top:0;z-index:50}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 24px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:20px}
+    .logo{width:48px;height:48px;border-radius:12px;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:20px}
+    nav a{margin-left:20px;font-weight:600;color:var(--muted)}
+    nav a:hover{color:var(--accent)}
+
+    .btn{display:inline-block;padding:14px 22px;border-radius:12px;background:var(--accent);color:#fff;font-weight:700;transition:.2s}
+    .btn:hover{opacity:.9}
+
+    /* Hero */
+    .hero{
+      background:linear-gradient(135deg,#4f46e5 0%,#3b82f6 100%);
+      color:#fff; text-align:center; padding:80px 20px;
+    }
+    .hero h1{font-size:56px;margin-bottom:16px}
+    .hero p{font-size:20px;color:#e0e7ff;margin-bottom:30px}
+    .hero .btn{background:#fff;color:#4f46e5}
+
+    /* Sections */
+    section{padding:70px 0}
+    .grid{display:grid;gap:24px}
+    .cols-3{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+    .cols-2{grid-template-columns:repeat(auto-fit,minmax(400px,1fr))}
+    .card{
+      background:var(--card);padding:28px;border-radius:var(--radius);
+      box-shadow:0 6px 20px rgba(0,0,0,0.06);
+    }
+    .card h3{margin-bottom:8px}
+
+    ul{margin:10px 0 0 20px}
+    li{margin-bottom:8px}
+    strong{font-weight:700}
+
+    footer{background:#111827;color:#d1d5db;padding:40px;text-align:center;font-size:14px;margin-top:60px}
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <div class="nav container">
+      <div class="brand"><div class="logo">GT</div> Guardian Trace</div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#safety">Safety</a>
+        <a href="#flags">Red Flags</a>
+        <a href="#how">How We Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <h1>Protecting Online Communities</h1>
+    <p>Guardian Trace is a volunteer-led project summarising online safety tips, red flags, and reporting guidance. Together, we make digital spaces safer.</p>
+    <a href="#about" class="btn">Learn More</a>
+    <a href="#contact" class="btn" style="margin-left:12px">Contact Us</a>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2>About Guardian Trace</h2>
+      <p><strong>Guardian Trace</strong> is a volunteer initiative focused on catching harmful behaviour online and spreading awareness. We are not affiliated with Discord or any platform — our mission is to <strong>observe, educate, and report</strong>.</p>
+    </div>
+  </section>
+
+  <!-- Safety Basics -->
+  <section id="safety" style="background:#f1f5f9">
+    <div class="container">
+      <h2>Safety Basics</h2>
+      <div class="grid cols-3">
+        <div class="card"><h3>🔒 Secure Accounts</h3><p>Use unique passwords and enable 2FA on all accounts.</p></div>
+        <div class="card"><h3>🙈 Protect Privacy</h3><p>Don’t overshare personal info, private photos, or your location.</p></div>
+        <div class="card"><h3>⚠️ Stay Alert</h3><p>Avoid suspicious links, downloads, or strangers asking for private data.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Red Flags -->
+  <section id="flags">
+    <div class="container">
+      <h2 style="color:var(--danger)">Red Flags 🚩</h2>
+      <ul>
+        <li><strong>Excessive flattery</strong> followed by personal questions</li>
+        <li><strong>Requests for secrecy</strong> or keeping chats hidden</li>
+        <li><strong>Unwanted gifts, money</strong> or manipulative promises</li>
+        <li><strong>Inappropriate images</strong> or grooming behaviour</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- How We Work -->
+  <section id="how" style="background:#f1f5f9">
+    <div class="container">
+      <h2>How We Work</h2>
+      <div class="grid cols-2">
+        <div class="card"><h3>👀 Observation</h3><p>We monitor communities, identify harmful activity, and gather evidence.</p></div>
+        <div class="card"><h3>📢 Reporting</h3><p>We pass verified reports to official platform support teams.</p></div>
+        <div class="card"><h3>📚 Education</h3><p>We share easy-to-understand safety tips for users of all ages.</p></div>
+        <div class="card"><h3>🤝 Support</h3><p>We stand with victims, offering resources — never vigilante actions.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact / Report</h2>
+      <p>If you need to report suspicious behaviour or want to support Guardian Trace, reach us here:</p>
+      <p>
+        📧 <a href="mailto:codermeislove@gmail.com">codermeislove@gmail.com</a><br>
+        🐦 <a href="https://x.com/guardian_trace" target="_blank">Twitter @guardian_trace</a>
+      </p>
+      <a href="mailto:codermeislove@gmail.com" class="btn">Send Report</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Guardian Trace. Volunteer project for online safety. Not affiliated with Discord or any platform.</p>
+  </footer>
+</body>
+</html>
