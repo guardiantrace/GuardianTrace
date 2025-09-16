@@ -1,16 +1,24 @@
-## Hi there 👋
+# Guardian Trace 🌐  
 
-<!--
-**guardiantrace/GuardianTrace** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Guardian Trace** is a volunteer-led awareness project dedicated to online safety.  
+We summarize key platform safety guidelines into short, actionable tips for families, moderators, and community members.  
 
-Here are some ideas to get you started:
+⚠️ **Disclaimer**: Guardian Trace is not affiliated with Discord or any other platform. We are volunteers providing guidance, reporting assistance, and resources.  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 Live Demo  
+LINK !!
+
+---
+
+## 📖 Features  
+- ✅ Safety basics explained in plain language  
+- 🚩 Red flags to recognize harmful behavior  
+- 👥 Volunteer-driven "Observe, Report, Support" model  
+- 📚 Resources and links to official safety guides  
+- 📩 Contact form for reporting or questions  
+
+---
+
+## 📂 Project Structure  
